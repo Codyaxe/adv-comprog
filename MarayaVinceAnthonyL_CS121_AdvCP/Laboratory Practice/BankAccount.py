@@ -53,7 +53,7 @@ class BankAccount(ABC):
 class CurrentAccount(BankAccount):
 
     def withdraw(self, amount):
-        if super().balance - amount >= -5000 and self._balance >= -5000:
+        if super().balance - amount >= -5000:
             self._balance -= amount
             return self._balance
         else:
@@ -68,7 +68,7 @@ class CurrentAccount(BankAccount):
 class SavingsAccount(BankAccount):
 
     def withdraw(self, amount):
-        if super().balance - amount >= 0 and self._balance >= 0:
+        if super().balance - amount >= 0:
             self._balance -= amount
             return self._balance
         else:
