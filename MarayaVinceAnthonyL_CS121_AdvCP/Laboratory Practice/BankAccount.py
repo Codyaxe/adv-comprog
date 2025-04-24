@@ -94,6 +94,7 @@ print_account_details(test2)
 
 # test3 = SavingsAccount("SA435", 800)
 # test4 = CurrentAccount("CA876", 4000)
-
+# test3.withdraw(800)
+# test4.deposit(1000)
 # print_account_details(test3)
 # print_account_details(test4)
