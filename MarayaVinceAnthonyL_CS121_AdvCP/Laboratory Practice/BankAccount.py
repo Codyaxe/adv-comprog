@@ -91,3 +91,9 @@ test2 = CurrentAccount("CA456", -200)
 
 print_account_details(test1)
 print_account_details(test2)
+
+test3 = SavingsAccount("SA435", 800)
+test4 = CurrentAccount("CA876", 4000)
+
+print_account_details(test3)
+print_account_details(test4)
